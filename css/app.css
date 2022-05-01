@@ -1,0 +1,325 @@
+/* Import Fonts Start */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.nav-link .active {
+    text-decoration: underline;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white !important;   
+}
+
+.nav-item {
+    border-right: solid white 1px;
+}
+
+.my-acc-btn {
+    background-color: #0061A3;
+    color: white; 
+    font-weight: bold; 
+    margin-right: -12px; 
+    margin-top: -1px; 
+    margin-bottom: -1px;
+}
+
+.after-slider-card {
+    margin-top: 30px;
+}
+
+.after-slider-card .bcard {
+    padding: 10px;
+    margin-left: 5px;
+    border: solid 1px #E0E0E0;
+    border-radius: 10px;
+}
+
+.after-slider-card a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    float: right;
+}
+
+.after-slider-card > b {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.after-slider-card p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5F5F;
+}
+
+.after-slider-card img {
+    float: left; margin-right: 60;
+}
+
+
+.mtitle { 
+    position: static;
+    height: 17px;
+    left: 22.06%;
+    right: 0%;
+    top: 9.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    text-transform: uppercase;
+    /* black */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.pcost {
+    /* Price */
+    left: 50.71%;
+    right: 10.34%;
+    top: 37.33%;
+    bottom: 47.6%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 42px;
+    /* or 85% */
+    color: #13902A;
+}
+
+.playNowBtn {
+    width: 100%;
+    margin: 2px;
+    background: #F7D300;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* black */
+    color: #000000;
+}
+
+.timer { 
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    left:22px;
+    top: 0px;  
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.bx1 {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0px 15px;
+    overflow: hidden;
+}
+.ltrydrw{
+    width: 421px;
+    height: 36px;
+    left: 9px;
+    top: 0px;
+
+    /* medium/24 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* black */
+
+    color: #000000;
+}
+.btimer{
+    width: 54px;
+    height: 18px;
+    left: 20px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    /* blue */
+
+    color: #0061A3;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+    }
+
+.bwatch{
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 1px;
+
+    /* blue */
+
+    background: #0061A3;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+
+}
+.ltrcard{
+    width: 200px;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+    right: 20px;
+
+    background: #FFFFFF;
+    /* grey/light */
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 15px;
+
+}
+
+.mdetails{
+    width: 116px;
+    height: 24px;
+    left: 1019px;
+    top: 629px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-decoration-line: underline;
+
+    /* blue */
+
+    color: #0061A3;
+}
+.plyltryonline{
+    width: 1170px;
+    height: 45px;
+    left: 0px;
+    top: -1px;
+
+    /* red */
+
+    background: #F30000;
+    border-radius: 8px;
+
+}
+.txt-plyltryonline{
+    height: 24px;
+    left: 0%;
+    right: 0%;
+    top: 10.5px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.bigwin{ 
+    height: 45px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    
+    /* red */
+    
+    background: #F30000;
+    border-radius: 8px;
+}
+.txt-bigwin{
+    height: 24px;
+    left: 0%;
+    right: 0%;
+    top: 10.5px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+}
+
+
+
+
+
