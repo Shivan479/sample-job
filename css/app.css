@@ -282,9 +282,7 @@
 
 .txt-plyltryonline {
     height: 24px;
-    left: 0%;
-    right: 0%;
-    top: 10.5px;
+    padding-top: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -296,13 +294,8 @@
 }
 
 .bigwin {
-    height: 45px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
-    /* red */
     background: #F30000;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .txt-bigwin {
@@ -373,13 +366,80 @@
 .ctrystyl img {
     height: 14px;
     margin-right: 5px;
+    margin-top: 15px;
 }
 
 .dcost {
     margin-left: 50px;
     margin-right: 15px;
     font-family: 'Roboto';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
     line-height: 22px;
+}
+
+.trplayNowBtn {
+    background: #F7D300;
+    border-radius: 8px;
+    width: 100%;
+    margin: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* black */
+    color: #000000;
+}
+
+.trplaybtn {
+    background: #F7D300;
+    border-radius: 8px;
+    width: 100%;
+    margin: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* black */
+    color: #000000;
+}
+
+.faques {
+    width: 431px;
+    height: 36px;
+    left: 4px;
+    top: 0px;
+    /* medium/24 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    text-transform: uppercase;
+    /* black */
+    color: #000000;
+}
+
+.questyl {
+    width: 228px;
+    height: 24px;
+    left: 20px;
+    top: 3px;
+    /* medium/18 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    /* blue */
+    color: #0061A3;
 }
