@@ -327,8 +327,6 @@
 .twoRow5crd {
     width: 161px;
     height: 270px;
-    left: 0px;
-    top: 0px;
     right: 20px;
     background: #FFFFFF;
     /* grey/light */
@@ -336,9 +334,6 @@
     box-sizing: border-box;
     border-radius: 8px;
     /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     margin: 0px 15px;
 }
 
@@ -442,4 +437,83 @@
     /* identical to box height, or 133% */
     /* blue */
     color: #0061A3;
+}
+
+.wonstyle {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 36px;
+    padding-left: 15px;
+    /* identical to box height, or 129% */
+    text-transform: uppercase;
+    /* black */
+    color: #000000;
+}
+
+.estyle {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    /* identical to box height, or 61% */
+    /* blue */
+    color: #0061A3;
+}
+
+.retdotcuntdwn {
+    background-color: #F30000;
+    border-radius: 50px;
+    margin: 0 2px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    padding: 0 2px;
+}
+
+.ukstyle {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    /* black */
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer {
+    background-image: url('./../assets/footer-bg.png');
+    background-position: bottom;
+}
+
+.uscost {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 26px;
+    /* identical to box height, or 85% */
+    color: #13902A;
+}
+
+.numstyle {
+    color: #000000;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 26px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.winStyl {
+    color: #000000;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.t-winStyl {
+    color: #000000;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
 }
