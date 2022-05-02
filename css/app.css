@@ -68,6 +68,44 @@
     margin-right: 60;
 }
 
+.maf-card {
+    margin-top: 30px;
+    margin-right: 1px;
+    flex: 1;
+}
+
+.maf-card a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    float: right;
+}
+
+.maf-card>b {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.maf-card p {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5F5F;
+}
+
+.maf-card img {
+    margin-right: 60;
+}
+
 .mtitle {
     position: static;
     height: 17px;
@@ -234,7 +272,6 @@
 }
 
 .plyltryonline {
-    width: 1170px;
     height: 45px;
     left: 0px;
     top: -1px;
@@ -286,4 +323,46 @@
 .megmill {
     margin-top: 18px;
     margin-right: 20px;
+}
+
+.megmill-leftimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.crdstyl {
+    margin-left: 50px;
+    padding-top: 8px;
+    margin-right: 20px;
+}
+
+.ctrystyl {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    text-transform: uppercase;
+    /* black */
+    color: #000000;
+}
+
+.ctrystyl img {
+    height: 14px;
+    margin-right: 5px;
+}
+
+.dcost {
+    margin-left: 50px;
+    margin-right: 15px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
 }
